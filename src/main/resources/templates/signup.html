@@ -1,26 +1,24 @@
 <!DOCTYPE html>
-<html xmlns:th="https://www.thymeleaf.org">
+<html>
 <head>
 <meta charset="UTF-8">
-<title>Login</title>
-<!-- CSS only -->
+<title>Sign Up</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
 </head>
 <body>
 
-	<div class="container">
-	<h1>This login page</h1>
+<div class="container">
+<h1>Sign up page</h1>
 	<hr>
 	
-	<p class="text-danger">[[${message}]]</p>
-	
-	<form action="/login" method="post">
+	<form action="/signup" method="post">
+		First Name: <input type="text" name="firstName"><br><br>
+		Last Name: <input type="text" name="lastName"><br><br>
 		Username: <input type="text" name="username"><br><br>
 		Password: <input type="password" name="password"><br><br>
-		<input type="submit" value="Login">
+		<input type="submit" value="Signup">
 	</form>
-	</div>
+</div>
 
 </body>
 </html>
