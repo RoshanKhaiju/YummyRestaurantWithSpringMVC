@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Upload Image</title>
+</head>
+<body>
+
+<div th:insert="header.html"></div>
+
+	<main id="main" style="margin-top:50px;">
+		
+		<!-- ======= Upload Image Section ======= -->
+    <section id="upload-image" class="upload-image">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Upload Image</h2>
+          <p>Add <span>Chef</span> Professional</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4" style="background-image: url(assets/img/reservation.jpg);" ></div>
+
+          <div class="col-lg-8 p-lg-5 p-sm-3 bg-light bg-gradient">
+            <form action="/upload" method="post" enctype="multipart/form-data">
+            
+            <p class="text-success">[[${message}]]</p>
+            <p class="text-danger">[[${error}]]</p>
+            
+ 			<div class="from-group">
+				  <label for="formFile" class="form-label">Select Image</label>
+                  <input type="file" name="image" class="form-control" id="image">
+                <div class="validate"></div>
+            </div>
+              <div class="form-group mt-3 ">
+              	<button type="reset" class=" btn btn-light btn-outline-secondary">Reset</button>
+              	<button type="submit" class=" btn btn-primary">Upload</button>
+              	</div>
+            </form>
+          </div><!-- End Upload Image Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Upload Image Section -->
+		
+		
+	</main>
+	<!-- End #main -->
+
+	<div th:insert="footer.html"></div>
+
+</body>
+</html>
