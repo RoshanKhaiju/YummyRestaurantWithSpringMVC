@@ -12,7 +12,7 @@
 
 		<!-- ======= Chief List Section ======= -->
 		<section id="list-chef" class="list-chef">
-			<div class="container" data-aos="fade-up">
+			<div class="container table-responsive" data-aos="fade-up">
 
 				<div class="section-header">
 					<h2>Chief List</h2>
@@ -20,7 +20,7 @@
 						List <span>Chief</span> Professional
 					</p>
 				</div>
-				<table class="table table-bordered">
+				<table id="chefListTable" class="table ">
 					<thead>
 						<tr>
 							<th>#</th>
@@ -44,14 +44,21 @@
 							<td>[[${chef.joinedDate}]]</td>
 							<td>[[${chef.description}]]</td>
 							<td>
-								<input class="btn btn-success" type="submit" value="Edit">
-								<input class="btn btn-danger" type="submit" value="Delete">
+								<a th:href="@{editChef(id=${chef.id})}"><input class="btn btn-success w-100 mb-2" type="submit" value="Edit"></a>
+								<a th:href="@{'deleteChef/'+${chef.id}}"><input class="btn btn-danger w-100" type="submit" value="Delete"></a>
 							</td>
 						</tr>
 					</tbody>
 
 
 				</table>
+				
+				<script type="text/javascript">
+					$(document).ready( function () {
+						$('#chefListTable').DataTable();
+					} );
+				</script>
+				
 			</div>
 		</section>
 		<!-- End Chief List Section -->

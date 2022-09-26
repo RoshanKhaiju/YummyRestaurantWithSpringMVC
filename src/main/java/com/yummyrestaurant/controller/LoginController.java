@@ -31,11 +31,16 @@ public class LoginController {
 
 		if (user != null) {
 			attribute.addFlashAttribute("username", u.getUsername());
-			return "redirect:/";
+			return "redirect:/home";
 		}
 
 		model.addAttribute("message", "user not found!");
 		return "login";
+	}
+
+	@PostMapping("/logout")
+	public String logout() {
+		return "redirect:/";
 	}
 
 }

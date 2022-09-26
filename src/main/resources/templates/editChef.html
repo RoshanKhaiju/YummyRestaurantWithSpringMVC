@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Edit Chef</title>
+</head>
+<body>
+
+	<div th:insert="header.html"></div>
+
+	<main id="main" style="margin-top:50px;">
+		
+		<!-- ======= Add Chief Section ======= -->
+    <section id="edit-chef" class="edit-chef">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Edit Chef</h2>
+          <p>Edit <span>Chef</span> Information</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4" style="background-image: url(assets/img/reservation.jpg);" ></div>
+
+          <div class="col-lg-8 d-flex align-items-center p-lg-5 p-sm-3 bg-light bg-gradient">
+            <form action="/updateChef" method="post" enctype="multipart/form-data" th:object="${editModel}">
+              <div class="row gy-4">
+                <div class="from-group col-lg-4 col-md-6">
+                  <label for="firstName" class="form-label">First Name</label>
+                  <input type="text" th:field="*{firstName}" class="form-control" id="name" placeholder="First Name" >
+                  <div class="validate"></div>
+                </div>
+                <div class="from-group col-lg-4 col-md-6">
+                  <label for="lastName" class="form-label">Last Name</label>
+                  <input type="text" th:field="*{lastName}" class="form-control" id="name" placeholder="Last Name" >
+                  <div class="validate"></div>
+                </div>
+                <div class="from-group col-lg-4 col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" th:field="*{email}" id="email" placeholder="Chef Email">
+                  <div class="validate"></div>
+                </div>
+                <div class="from-group col-lg-4 col-md-6">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input type="text" class="form-control" th:field="*{phone}" id="phone" placeholder="Chef Phone">
+                  <div class="validate"></div>
+                </div>
+                <div class="from-group col-lg-4 col-md-6">
+                  <label for="designation" class="form-label">Designation</label>
+                  <!-- <input type="text" class="form-control" name="designation" id="designation" placeholder="Chef designation"> -->
+                    <select th:field="*{designation}" class="form-control" id="designation">
+                    	<option value="" >Choose Chef Designation...</option>
+                    	<option value="Master Chef">Master Chef</option>
+                    	<option value="Patisser" >Patissier</option>
+						<option value="Cook" >Cook</option>
+    				</select>
+                  <div class="validate"></div>
+                </div>
+                <div class="from-group col-lg-4 col-md-6">
+                  <label for="joinedDate" class="form-label">Joined Date</label>
+                  <input type="date" th:field="*{joinedDate}" class="form-control" id="date" placeholder="Joined Date">
+                  <div class="validate"></div>
+                </div>
+<!-- 				<div class="from-group">
+				  <label for="formFile" class="form-label">Select Image</label>
+                  <input type="file" name="image" class="form-control" id="image">
+                  <div class="validate"></div>
+                </div> -->
+              </div>
+              <div class="form-group mt-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea class="form-control" th:field="*{description}" rows="5" placeholder="Description"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="form-group mt-3 ">
+              	<button type="reset" class="btn btn-light btn-outline-secondary">Reset</button>
+              	<button type="submit" class="btn btn-primary">Update Chief</button>
+              	</div>
+              	
+              	<input type="hidden" th:field="*{id}">
+              	
+            </form>
+          </div><!-- End Edit Chief Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Edit Chief Section -->
+		
+		
+	</main>
+	<!-- End #main -->
+
+	<div th:insert="footer.html"></div>
+
+</body>
+</html>
