@@ -25,7 +25,8 @@ public class Chef {
 	private String designation;
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date joinedDate;
-	private String image;
+//	@Column(columnDefinition = "MEDIUMLOB")
+//	private String image;
 	private String description;
 
 	public Long getId() {
@@ -84,13 +85,13 @@ public class Chef {
 		this.joinedDate = joinedDate;
 	}
 
-	public String getImage() {
-		return image;
-	}
-
-	public void setImage(String image) {
-		this.image = image;
-	}
+//	public String getImage() {
+//		return image;
+//	}
+//
+//	public void setImage(String image) {
+//		this.image = image;
+//	}
 
 	public String getDescription() {
 		return description;

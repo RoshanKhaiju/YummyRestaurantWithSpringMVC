@@ -8,11 +8,55 @@
 
 	<div th:insert="header.html"></div>
 
-	<main id="main" style="margin-top:50px;">
-		
+	<main id="main" style="margin-top: 50px;">
+
 		<!-- ======= Chief List Section ======= -->
-		
-		
+		<section id="list-chef" class="list-chef">
+			<div class="container" data-aos="fade-up">
+
+				<div class="section-header">
+					<h2>Chief List</h2>
+					<p>
+						List <span>Chief</span> Professional
+					</p>
+				</div>
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th >Name</th>
+							<th >Email</th>
+							<th >Phone</th>
+							<th >Designation</th>
+							<th >Joined Date</th>
+							<th >Description</th>
+							<th >Action</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr th:each="chef,iterator:${listChef}">
+							<td>[[${iterator.index+1}]]</td>
+							<td>[[${chef.firstName}+' '+${chef.lastName}]]</td>
+							<td>[[${chef.email}]]</td>
+							<td>[[${chef.phone}]]</td>
+							<td>[[${chef.designation}]]</td>
+							<td>[[${chef.joinedDate}]]</td>
+							<td>[[${chef.description}]]</td>
+							<td>
+								<input class="btn btn-success" type="submit" value="Edit">
+								<input class="btn btn-danger" type="submit" value="Delete">
+							</td>
+						</tr>
+					</tbody>
+
+
+				</table>
+			</div>
+		</section>
+		<!-- End Chief List Section -->
+
+
 	</main>
 	<!-- End #main -->
 
