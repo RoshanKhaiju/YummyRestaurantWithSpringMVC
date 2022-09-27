@@ -1,5 +1,7 @@
 package com.yummyrestaurant.controller;
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,12 +21,18 @@ public class ChefsController {
 	private ChefService service;
 
 	@GetMapping("/chefs")
-	public String chefsPage() {
+	public String chefsPage(HttpSession session) {
+		if (session.getAttribute("activeUser") == null) {
+			return "redirect:/";
+		}
 		return "chefs";
 	}
 
 	@GetMapping("/addChef")
-	public String addChief() {
+	public String addChief(HttpSession session) {
+		if (session.getAttribute("activeUser") == null) {
+			return "redirect:/";
+		}
 		return "addChef";
 	}
 
@@ -37,7 +45,11 @@ public class ChefsController {
 	}
 
 	@GetMapping("/chefList")
-	public String chiefList(Model model) {
+	public String chiefList(Model model, HttpSession session) {
+		
+		if (session.getAttribute("activeUser") == null) {
+			return "redirect:/";
+		}
 
 		model.addAttribute("listChef", service.getAllChefs());
 
@@ -51,7 +63,10 @@ public class ChefsController {
 	}
 
 	@GetMapping("/editChef")
-	public String editChef(@RequestParam Long id, Model model) {
+	public String editChef(@RequestParam Long id, Model model, HttpSession session) {
+		if (session.getAttribute("activeUser") == null) {
+			return "redirect:/";
+		}
 		model.addAttribute("editModel", service.getChefById(id));
 		return "editChef";
 	}
