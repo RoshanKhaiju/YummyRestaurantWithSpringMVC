@@ -2,21 +2,21 @@
 <html xmlns:th="https://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
-<title>Add Menu</title>
+<title>Edit Menu</title>
 </head>
 <body>
 
 	<div th:insert="header.html"></div>
 
-		<main id="main" style="margin-top:50px;">
+	<main id="main" style="margin-top:50px;">
 		
-		<!-- ======= Add Menu Section ======= -->
-    <section id="add-menu" class="add-menu">
+		<!-- ======= Edit Menu Section ======= -->
+    <section id="edit-menu" class="edit-menu">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Add Menu</h2>
-          <p>Add <span>Menu</span> </p>
+          <h2>Edit Menu</h2>
+          <p>Edit <span>Menu</span> Information</p>
         </div>
 
         <div class="row">
@@ -24,28 +24,28 @@
           <div class="col-lg-4" style="background-image: url(assets/img/reservation.jpg);" ></div>
 
           <div class="col-lg-8 d-flex align-items-center p-lg-5 p-sm-3 bg-light bg-gradient">
-            <form action="/addMenu" method="post" enctype="multipart/form-data">
+            <form action="/updateMenu" method="post" enctype="multipart/form-data" th:object="${editModel}">
               <div class="row gy-4">
                 <div class="from-group col-lg-4 col-md-6">
                   <label for="name" class="form-label">Name</label>
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Item Name" >
+                  <input type="text" th:field="*{name}" class="form-control" id="name" placeholder="Item Name" >
                   <div class="validate"></div>
                 </div>
                 <div class="from-group col-lg-4 col-md-6">
                   <label for="category" class="form-label">Category</label>
                   <!-- <input type="text" class="form-control" name="designation" id="designation" placeholder="Chef designation"> -->
-                    <select name="category" class="form-control" id="category">
+                    <select th:field="*{category}" class="form-control" id="category">
                     	<option value="" >Choose Menu Category...</option>
                     	<option value="Starter">Starter</option>
                     	<option value="Breakfast" >Breakfast</option>
 						<option value="Lunch" >Lunch</option>
-						<option valu="Dinner">Dinner</option>
+						<option value="Dinner">Dinner</option>
     				</select>
                   <div class="validate"></div>
                 </div>
                 <div class="from-group col-lg-4 col-md-6">
                   <label for="price" class="form-label">Price</label>
-                  <input type="number" name="price" class="form-control" id="price" placeholder="Price">
+                  <input type="number" th:field="*{price}" class="form-control" id="price" placeholder="Price">
                   <div class="validate"></div>
                 </div>
 <!-- 				<div class="from-group">
@@ -56,20 +56,23 @@
               </div>
               <div class="form-group mt-3">
                 <label for="description" class="form-label">Description</label>
-                <textarea class="form-control" name="description" rows="5" placeholder="Description"></textarea>
+                <textarea class="form-control" th:field="*{description}" rows="5" placeholder="Description"></textarea>
                 <div class="validate"></div>
               </div>
               <div class="form-group mt-3 ">
               	<button type="reset" class="btn btn-light btn-outline-secondary">Reset</button>
-              	<button type="submit" class="btn btn-primary">Add Menu</button>
+              	<button type="submit" class="btn btn-primary">Update Menu</button>
               	</div>
+              	
+              	<input type="hidden" th:field="*{id}">
+              	
             </form>
-          </div><!-- End Add Menu Form -->
+          </div><!-- End Edit Menu Form -->
 
         </div>
 
       </div>
-    </section><!-- End Add Menu Section -->
+    </section><!-- End Edit Menu Section -->
 		
 		
 	</main>

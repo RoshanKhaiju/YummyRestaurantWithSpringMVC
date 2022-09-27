@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Menu List</title>
+</head>
+<body>
+
+	<div th:insert="header.html"></div>
+
+	<main id="main" style="margin-top: 50px;">
+		<!-- ======= Menu List Section ======= -->
+		<section id="list-menu" class="menu-list">
+			<div class="container table-responsive" data-aos="fade-up">
+				<div class="section-header">
+					<h2>Menu List</h2>
+					<p>
+						List <span>Items</span>
+					</p>
+				</div>
+				
+				<table id="menuListTable" class="table">
+					
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Name</th>
+							<th>Category</th>
+							<th>Price</th>
+							<th>Description</th>
+							<th>Action</th>
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr th:each="menu,iterator:${listMenu}">
+							<td>[[${iterator.index+1}]]</td>
+							<td>[[${menu.name}]]</td>
+							<td>[[${menu.category}]]</td>
+							<td>[[${menu.price}]]</td>
+							<td>[[${menu.description}]]</td>
+							<td>
+								<a th:href="@{editMenu(id=${menu.id})}"><input class="btn btn-success w-100 mb-2" type="submit" value="Edit"></a>
+								<a th:href="@{'deleteMenu/'+${menu.id}}"><input class="btn btn-danger w-100" type="submit" value="Delete"></a>
+							</td>
+						</tr>
+					</tbody>
+					
+				</table>
+				
+				<script type="text/javascript">
+					$(document).ready( function () {
+						$('#menuListTable').DataTable();
+					} );
+				</script>
+				
+			</div>
+		</section>
+		<!-- End List Menu section -->
+	</main>
+	<!-- End #main -->
+
+	<div th:insert="footer.html"></div>
+
+</body>
+</html>

@@ -57,7 +57,10 @@ public class ChefsController {
 	}
 
 	@GetMapping("/deleteChef/{id}")
-	public String deleteChef(@PathVariable("id") Long chefid) {
+	public String deleteChef(@PathVariable("id") Long chefid,HttpSession session) {
+		if (session.getAttribute("activeUser") == null) {
+			return "redirect:/";
+		}
 		service.deleteChef(chefid);
 		return "redirect:/chefList";
 	}
