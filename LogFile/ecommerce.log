@@ -1121,3 +1121,1050 @@ org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The 
 2022-09-27 13:28:16.735  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2022-09-27 13:28:16.740  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.459 seconds (JVM running for 2499.201)
 2022-09-27 13:28:16.742  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 13:36:36.607  INFO 7229 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 13:36:36.607  INFO 7229 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 13:36:36.610  INFO 7229 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-09-27 13:36:55.876  INFO 7229 --- [http-nio-8080-exec-5] c.y.controller.LoginController           : login success
+2022-09-27 13:39:45.673  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2022-09-27 13:39:45.675  INFO 7229 --- [Thread-99] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 13:39:45.675  INFO 7229 --- [Thread-99] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 13:39:45.679  INFO 7229 --- [Thread-99] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 13:39:45.679  INFO 7229 --- [Thread-99] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown initiated...
+2022-09-27 13:39:45.681  INFO 7229 --- [Thread-99] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown completed.
+2022-09-27 13:39:45.751  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 13:39:45.751  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 13:39:45.867  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 13:39:45.872  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+2022-09-27 13:39:45.947  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 13:39:45.948  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 13:39:45.948  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 13:39:45.958  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 13:39:45.958  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 204 ms
+2022-09-27 13:39:45.998  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 13:39:46.002  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Starting...
+2022-09-27 13:39:46.013  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Start completed.
+2022-09-27 13:39:46.013  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 13:39:46.045  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 13:39:46.045  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 13:39:46.124  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 13:39:46.165  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 13:39:46.232  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 13:39:46.242  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 13:39:46.247  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.517 seconds (JVM running for 3188.708)
+2022-09-27 13:39:46.248  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 13:40:32.377  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 13:40:32.382  INFO 7229 --- [Thread-103] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 13:40:32.395  INFO 7229 --- [Thread-103] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 13:40:32.397  INFO 7229 --- [Thread-103] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Shutdown initiated...
+2022-09-27 13:40:32.404  INFO 7229 --- [Thread-103] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Shutdown completed.
+2022-09-27 13:40:32.476  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 13:40:32.476  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 13:40:32.577  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 13:40:32.582  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 13:40:32.640  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 13:40:32.640  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 13:40:32.640  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 13:40:32.646  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 13:40:32.646  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 168 ms
+2022-09-27 13:40:32.676  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 13:40:32.679  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Starting...
+2022-09-27 13:40:32.688  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Start completed.
+2022-09-27 13:40:32.689  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 13:40:32.707  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 13:40:32.707  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 13:40:32.772  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 13:40:32.802  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 13:40:32.852  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 13:40:32.863  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 13:40:32.868  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.407 seconds (JVM running for 3235.329)
+2022-09-27 13:40:32.869  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 13:40:39.348  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 13:40:39.352  INFO 7229 --- [Thread-107] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 13:40:39.361  INFO 7229 --- [Thread-107] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 13:40:39.362  INFO 7229 --- [Thread-107] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Shutdown initiated...
+2022-09-27 13:40:39.370  INFO 7229 --- [Thread-107] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Shutdown completed.
+2022-09-27 13:40:39.447  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 13:40:39.447  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 13:40:39.553  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 13:40:39.558  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+2022-09-27 13:40:39.616  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 13:40:39.617  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 13:40:39.617  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 13:40:39.622  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 13:40:39.622  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 173 ms
+2022-09-27 13:40:39.658  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 13:40:39.661  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Starting...
+2022-09-27 13:40:39.671  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Start completed.
+2022-09-27 13:40:39.671  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 13:40:39.693  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 13:40:39.693  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 13:40:39.759  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 13:40:39.788  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 13:40:39.838  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 13:40:39.847  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 13:40:39.852  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.421 seconds (JVM running for 3242.313)
+2022-09-27 13:40:39.853  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 13:42:34.230  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 13:42:34.234  INFO 7229 --- [Thread-111] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 13:42:34.244  INFO 7229 --- [Thread-111] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 13:42:34.245  INFO 7229 --- [Thread-111] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Shutdown initiated...
+2022-09-27 13:42:34.251  INFO 7229 --- [Thread-111] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Shutdown completed.
+2022-09-27 13:42:34.334  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 13:42:34.334  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 13:42:34.437  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 13:42:34.442  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+2022-09-27 13:42:34.518  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 13:42:34.518  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 13:42:34.518  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 13:42:34.524  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 13:42:34.524  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 188 ms
+2022-09-27 13:42:34.559  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 13:42:34.562  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Starting...
+2022-09-27 13:42:34.575  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Start completed.
+2022-09-27 13:42:34.575  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 13:42:34.598  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 13:42:34.598  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 13:42:34.670  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 13:42:34.706  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 13:42:34.766  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 13:42:34.775  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 13:42:34.779  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.466 seconds (JVM running for 3357.24)
+2022-09-27 13:42:34.781  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 13:43:58.659  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 13:43:58.663  INFO 7229 --- [Thread-115] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 13:43:58.673  INFO 7229 --- [Thread-115] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 13:43:58.675  INFO 7229 --- [Thread-115] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Shutdown initiated...
+2022-09-27 13:43:58.681  INFO 7229 --- [Thread-115] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Shutdown completed.
+2022-09-27 13:43:58.758  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 13:43:58.759  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 13:43:58.867  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 13:43:58.871  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 13:43:58.943  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 13:43:58.943  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 13:43:58.943  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 13:43:58.949  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 13:43:58.949  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 188 ms
+2022-09-27 13:43:58.984  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 13:43:58.987  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Starting...
+2022-09-27 13:43:58.997  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Start completed.
+2022-09-27 13:43:58.998  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 13:43:59.022  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 13:43:59.023  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 13:43:59.103  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 13:43:59.146  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 13:43:59.232  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 13:43:59.242  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 13:43:59.246  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.507 seconds (JVM running for 3441.707)
+2022-09-27 13:43:59.247  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 13:44:13.953  INFO 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 13:44:13.954  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 13:44:13.955  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-27 13:44:16.166  INFO 7229 --- [http-nio-8080-exec-6] c.y.controller.LoginController           : login failed
+2022-09-27 13:44:26.436  INFO 7229 --- [http-nio-8080-exec-1] c.y.controller.LoginController           : login failed
+2022-09-27 13:45:54.568  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 13:45:54.572  INFO 7229 --- [Thread-119] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 13:45:54.573  INFO 7229 --- [Thread-119] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 13:45:54.581  INFO 7229 --- [Thread-119] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 13:45:54.582  INFO 7229 --- [Thread-119] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Shutdown initiated...
+2022-09-27 13:45:54.589  INFO 7229 --- [Thread-119] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Shutdown completed.
+2022-09-27 13:45:54.679  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 13:45:54.679  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 13:45:54.785  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 13:45:54.790  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 13:45:54.870  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 13:45:54.871  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 13:45:54.871  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 13:45:54.877  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 13:45:54.878  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 195 ms
+2022-09-27 13:45:54.923  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 13:45:54.927  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Starting...
+2022-09-27 13:45:54.941  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Start completed.
+2022-09-27 13:45:54.942  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 13:45:54.975  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 13:45:54.976  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 13:45:55.069  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 13:45:55.107  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 13:45:55.176  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 13:45:55.191  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 13:45:55.197  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.537 seconds (JVM running for 3557.658)
+2022-09-27 13:45:55.198  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 13:46:00.798  INFO 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 13:46:00.798  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 13:46:00.800  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-09-27 13:46:00.808  INFO 7229 --- [http-nio-8080-exec-1] c.y.controller.LoginController           : login failed
+2022-09-27 13:46:12.608  INFO 7229 --- [http-nio-8080-exec-7] c.y.controller.LoginController           : login failed
+2022-09-27 13:46:24.191  INFO 7229 --- [http-nio-8080-exec-1] c.y.controller.LoginController           : login failed
+2022-09-27 13:46:36.789  INFO 7229 --- [http-nio-8080-exec-5] c.y.controller.LoginController           : login success
+2022-09-27 14:47:27.036  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 14:47:27.042  INFO 7229 --- [Thread-123] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 14:47:27.043  INFO 7229 --- [Thread-123] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 14:47:27.051  INFO 7229 --- [Thread-123] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 14:47:27.052  INFO 7229 --- [Thread-123] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Shutdown initiated...
+2022-09-27 14:47:27.060  INFO 7229 --- [Thread-123] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Shutdown completed.
+2022-09-27 14:47:27.142  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 14:47:27.142  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 14:47:27.251  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 14:47:27.256  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 14:47:27.325  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 14:47:27.325  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 14:47:27.325  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 14:47:27.331  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 14:47:27.331  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 187 ms
+2022-09-27 14:47:27.361  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 14:47:27.364  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Starting...
+2022-09-27 14:47:27.374  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Start completed.
+2022-09-27 14:47:27.374  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 14:47:27.398  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 14:47:27.399  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 14:47:27.479  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 14:47:27.515  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 14:47:27.574  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 14:47:27.583  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 14:47:27.588  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.466 seconds (JVM running for 4111.256)
+2022-09-27 14:47:27.589  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 14:49:37.413  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 14:49:37.419  INFO 7229 --- [Thread-127] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 14:49:37.430  INFO 7229 --- [Thread-127] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 14:49:37.431  INFO 7229 --- [Thread-127] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Shutdown initiated...
+2022-09-27 14:49:37.437  INFO 7229 --- [Thread-127] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Shutdown completed.
+2022-09-27 14:49:37.520  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 14:49:37.520  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 14:49:37.619  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 14:49:37.624  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 14:49:37.683  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 14:49:37.683  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 14:49:37.683  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 14:49:37.689  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 14:49:37.689  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 168 ms
+2022-09-27 14:49:37.715  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 14:49:37.717  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Starting...
+2022-09-27 14:49:37.728  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Start completed.
+2022-09-27 14:49:37.728  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 14:49:37.746  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 14:49:37.747  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 14:49:37.816  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 14:49:37.844  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 14:49:37.892  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 14:49:37.904  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 14:49:37.909  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.405 seconds (JVM running for 4241.576)
+2022-09-27 14:49:37.910  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:03:48.079  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 15:03:48.083  INFO 7229 --- [Thread-131] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:03:48.088  INFO 7229 --- [Thread-131] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:03:48.088  INFO 7229 --- [Thread-131] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Shutdown initiated...
+2022-09-27 15:03:48.091  INFO 7229 --- [Thread-131] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Shutdown completed.
+2022-09-27 15:03:48.161  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:03:48.161  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:03:48.269  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:03:48.273  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:03:48.343  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:03:48.343  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:03:48.344  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:03:48.349  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:03:48.349  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 185 ms
+2022-09-27 15:03:48.379  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:03:48.382  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Starting...
+2022-09-27 15:03:48.392  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Start completed.
+2022-09-27 15:03:48.392  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:03:48.415  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:03:48.416  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:03:48.499  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:03:48.536  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:03:48.587  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:03:48.597  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:03:48.603  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.462 seconds (JVM running for 5092.27)
+2022-09-27 15:03:48.604  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:14:30.819  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 15:14:30.824  INFO 7229 --- [Thread-135] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:14:30.828  INFO 7229 --- [Thread-135] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:14:30.829  INFO 7229 --- [Thread-135] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Shutdown initiated...
+2022-09-27 15:14:30.831  INFO 7229 --- [Thread-135] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Shutdown completed.
+2022-09-27 15:14:30.901  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:14:30.901  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:14:30.998  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:14:31.003  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:14:31.058  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:14:31.059  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:14:31.059  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:14:31.064  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:14:31.064  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 162 ms
+2022-09-27 15:14:31.092  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:14:31.094  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Starting...
+2022-09-27 15:14:31.104  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Start completed.
+2022-09-27 15:14:31.104  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:14:31.122  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:14:31.123  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:14:31.196  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:14:31.223  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:14:31.264  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:14:31.274  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:14:31.278  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.392 seconds (JVM running for 5193.633)
+2022-09-27 15:14:31.279  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:15:52.991  INFO 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 15:15:52.991  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 15:15:52.993  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-09-27 15:16:07.471  INFO 7229 --- [http-nio-8080-exec-7] c.y.controller.LoginController           : login failed
+2022-09-27 15:16:20.894  INFO 7229 --- [http-nio-8080-exec-2] c.y.controller.LoginController           : login success
+2022-09-27 15:19:11.856  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 15:19:11.861  INFO 7229 --- [Thread-139] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:19:11.861  INFO 7229 --- [Thread-139] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 15:19:11.872  INFO 7229 --- [Thread-139] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:19:11.872  INFO 7229 --- [Thread-139] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Shutdown initiated...
+2022-09-27 15:19:11.876  INFO 7229 --- [Thread-139] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Shutdown completed.
+2022-09-27 15:19:11.960  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:19:11.960  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:19:12.082  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:19:12.088  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:19:12.163  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:19:12.164  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:19:12.164  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:19:12.169  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:19:12.169  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 207 ms
+2022-09-27 15:19:12.205  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:19:12.209  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Starting...
+2022-09-27 15:19:12.219  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Start completed.
+2022-09-27 15:19:12.219  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:19:12.242  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:19:12.242  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:19:12.327  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:19:12.376  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:19:12.433  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:19:12.442  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:19:12.447  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.507 seconds (JVM running for 5473.805)
+2022-09-27 15:19:12.448  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:19:14.477  INFO 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 15:19:14.478  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 15:19:14.479  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-27 15:20:13.390  INFO 7229 --- [http-nio-8080-exec-8] c.y.controller.LoginController           : login success
+2022-09-27 15:27:52.635  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 15:27:52.637  INFO 7229 --- [Thread-143] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:27:52.637  INFO 7229 --- [Thread-143] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 15:27:52.641  INFO 7229 --- [Thread-143] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:27:52.642  INFO 7229 --- [Thread-143] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Shutdown initiated...
+2022-09-27 15:27:52.645  INFO 7229 --- [Thread-143] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Shutdown completed.
+2022-09-27 15:27:52.733  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:27:52.733  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:27:52.855  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:27:52.860  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:27:52.944  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:27:52.944  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:27:52.944  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:27:52.951  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:27:52.951  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 215 ms
+2022-09-27 15:27:52.987  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:27:52.989  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Starting...
+2022-09-27 15:27:53.001  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Start completed.
+2022-09-27 15:27:53.001  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:27:53.025  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:27:53.025  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:27:53.115  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:27:53.156  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:27:53.213  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:27:53.224  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:27:53.228  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.518 seconds (JVM running for 5766.191)
+2022-09-27 15:27:53.230  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:28:00.307  INFO 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 15:28:00.307  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 15:28:00.308  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-27 15:28:03.452 ERROR 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailSendException: Failed messages: javax.mail.SendFailedException: No recipient addresses; message exceptions (1) are:
+Failed message 1: javax.mail.SendFailedException: No recipient addresses] with root cause
+
+org.springframework.mail.MailSendException: Failed messages: javax.mail.SendFailedException: No recipient addresses
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:491) ~[spring-context-support-5.3.23.jar:5.3.23]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323) ~[spring-context-support-5.3.23.jar:5.3.23]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312) ~[spring-context-support-5.3.23.jar:5.3.23]
+	at com.yummyrestaurant.controller.ContactController.sendEmail(ContactController.java:44) ~[classes/:na]
+	at com.yummyrestaurant.controller.ContactController.sendMessage(ContactController.java:31) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-09-27 15:28:24.238  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 15:28:24.241  INFO 7229 --- [Thread-147] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:28:24.241  INFO 7229 --- [Thread-147] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 15:28:24.246  INFO 7229 --- [Thread-147] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:28:24.246  INFO 7229 --- [Thread-147] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Shutdown initiated...
+2022-09-27 15:28:24.251  INFO 7229 --- [Thread-147] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Shutdown completed.
+2022-09-27 15:28:24.355  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:28:24.356  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:28:24.464  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:28:24.470  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:28:24.545  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:28:24.545  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:28:24.545  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:28:24.551  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:28:24.551  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 194 ms
+2022-09-27 15:28:24.584  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:28:24.586  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-38 - Starting...
+2022-09-27 15:28:24.599  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-38 - Start completed.
+2022-09-27 15:28:24.599  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:28:24.628  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:28:24.628  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:28:24.714  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:28:24.754  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:28:24.815  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:28:24.824  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:28:24.832  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.502 seconds (JVM running for 5797.795)
+2022-09-27 15:28:24.834  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:28:27.908  INFO 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 15:28:28.505  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 15:28:28.508  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-09-27 15:37:11.374  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2022-09-27 15:37:11.380  INFO 7229 --- [Thread-151] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:37:11.380  INFO 7229 --- [Thread-151] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 15:37:11.390  INFO 7229 --- [Thread-151] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:37:11.391  INFO 7229 --- [Thread-151] com.zaxxer.hikari.HikariDataSource       : HikariPool-38 - Shutdown initiated...
+2022-09-27 15:37:11.397  INFO 7229 --- [Thread-151] com.zaxxer.hikari.HikariDataSource       : HikariPool-38 - Shutdown completed.
+2022-09-27 15:37:11.489  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:37:11.490  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:37:11.633  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:37:11.639  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:37:11.725  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:37:11.726  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:37:11.726  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:37:11.734  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:37:11.734  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 242 ms
+2022-09-27 15:37:11.774  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:37:11.777  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-39 - Starting...
+2022-09-27 15:37:11.789  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-39 - Start completed.
+2022-09-27 15:37:11.790  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:37:11.816  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:37:11.816  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:37:11.918  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:37:11.964  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:37:12.035  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:37:12.047  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:37:12.052  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.584 seconds (JVM running for 6323.837)
+2022-09-27 15:37:12.053  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:38:08.312  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 15:38:08.317  INFO 7229 --- [Thread-155] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:38:08.328  INFO 7229 --- [Thread-155] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:38:08.329  INFO 7229 --- [Thread-155] com.zaxxer.hikari.HikariDataSource       : HikariPool-39 - Shutdown initiated...
+2022-09-27 15:38:08.337  INFO 7229 --- [Thread-155] com.zaxxer.hikari.HikariDataSource       : HikariPool-39 - Shutdown completed.
+2022-09-27 15:38:08.422  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:38:08.423  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:38:08.527  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:38:08.531  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:38:08.586  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:38:08.587  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:38:08.587  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:38:08.592  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:38:08.592  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 167 ms
+2022-09-27 15:38:08.619  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:38:08.622  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-40 - Starting...
+2022-09-27 15:38:08.631  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-40 - Start completed.
+2022-09-27 15:38:08.632  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:38:08.653  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:38:08.653  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:38:08.730  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:38:08.761  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:38:08.805  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:38:08.814  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:38:08.819  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.411 seconds (JVM running for 6380.604)
+2022-09-27 15:38:08.820  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:40:08.205  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 15:40:08.206  INFO 7229 --- [Thread-159] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:40:08.210  INFO 7229 --- [Thread-159] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:40:08.211  INFO 7229 --- [Thread-159] com.zaxxer.hikari.HikariDataSource       : HikariPool-40 - Shutdown initiated...
+2022-09-27 15:40:08.213  INFO 7229 --- [Thread-159] com.zaxxer.hikari.HikariDataSource       : HikariPool-40 - Shutdown completed.
+2022-09-27 15:40:08.294  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:40:08.294  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:40:08.413  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:40:08.418  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:40:08.487  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:40:08.488  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:40:08.488  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:40:08.494  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:40:08.494  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 198 ms
+2022-09-27 15:40:08.522  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:40:08.525  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-41 - Starting...
+2022-09-27 15:40:08.539  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-41 - Start completed.
+2022-09-27 15:40:08.539  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:40:08.567  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:40:08.567  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:40:08.675  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:40:08.718  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:40:08.780  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:40:08.791  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:40:08.795  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.519 seconds (JVM running for 6500.581)
+2022-09-27 15:40:08.796  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:41:49.898  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 15:41:49.903  INFO 7229 --- [Thread-163] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:41:49.933  INFO 7229 --- [Thread-163] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:41:49.934  INFO 7229 --- [Thread-163] com.zaxxer.hikari.HikariDataSource       : HikariPool-41 - Shutdown initiated...
+2022-09-27 15:41:49.936  INFO 7229 --- [Thread-163] com.zaxxer.hikari.HikariDataSource       : HikariPool-41 - Shutdown completed.
+2022-09-27 15:41:50.015  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:41:50.015  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:41:50.137  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:41:50.142  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:41:50.204  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:41:50.204  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:41:50.204  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:41:50.209  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:41:50.209  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 193 ms
+2022-09-27 15:41:50.237  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:41:50.239  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-42 - Starting...
+2022-09-27 15:41:50.250  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-42 - Start completed.
+2022-09-27 15:41:50.251  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:41:50.269  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:41:50.269  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:41:50.351  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:41:50.390  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:41:50.437  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:41:50.450  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:41:50.457  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.457 seconds (JVM running for 6602.242)
+2022-09-27 15:41:50.459  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:42:22.438  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 15:42:22.443  INFO 7229 --- [Thread-167] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:42:22.451  INFO 7229 --- [Thread-167] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:42:22.453  INFO 7229 --- [Thread-167] com.zaxxer.hikari.HikariDataSource       : HikariPool-42 - Shutdown initiated...
+2022-09-27 15:42:22.459  INFO 7229 --- [Thread-167] com.zaxxer.hikari.HikariDataSource       : HikariPool-42 - Shutdown completed.
+2022-09-27 15:42:22.560  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:42:22.560  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:42:22.671  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:42:22.676  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:42:22.734  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:42:22.735  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:42:22.735  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:42:22.740  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:42:22.740  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 178 ms
+2022-09-27 15:42:22.770  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:42:22.773  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-43 - Starting...
+2022-09-27 15:42:22.783  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-43 - Start completed.
+2022-09-27 15:42:22.783  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:42:22.803  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:42:22.803  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:42:22.881  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:42:22.919  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:42:22.965  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:42:22.975  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:42:22.983  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.443 seconds (JVM running for 6634.768)
+2022-09-27 15:42:22.984  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:43:05.650  INFO 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 15:43:05.651  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 15:43:05.652  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-27 15:46:08.492  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2022-09-27 15:46:08.493  INFO 7229 --- [Thread-171] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:46:08.494  INFO 7229 --- [Thread-171] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 15:46:08.497  INFO 7229 --- [Thread-171] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:46:08.497  INFO 7229 --- [Thread-171] com.zaxxer.hikari.HikariDataSource       : HikariPool-43 - Shutdown initiated...
+2022-09-27 15:46:08.500  INFO 7229 --- [Thread-171] com.zaxxer.hikari.HikariDataSource       : HikariPool-43 - Shutdown completed.
+2022-09-27 15:46:08.607  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:46:08.607  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:46:08.766  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:46:08.773  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:46:08.883  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:46:08.884  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:46:08.884  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:46:08.891  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:46:08.892  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 282 ms
+2022-09-27 15:46:08.936  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:46:08.942  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-44 - Starting...
+2022-09-27 15:46:08.957  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-44 - Start completed.
+2022-09-27 15:46:08.957  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:46:08.991  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:46:08.991  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:46:09.140  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:46:09.201  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:46:09.301  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:46:09.358  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:46:09.365  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.787 seconds (JVM running for 6861.15)
+2022-09-27 15:46:09.366  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:48:01.418  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 15:48:01.422  INFO 7229 --- [Thread-175] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:48:01.431  INFO 7229 --- [Thread-175] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:48:01.433  INFO 7229 --- [Thread-175] com.zaxxer.hikari.HikariDataSource       : HikariPool-44 - Shutdown initiated...
+2022-09-27 15:48:01.440  INFO 7229 --- [Thread-175] com.zaxxer.hikari.HikariDataSource       : HikariPool-44 - Shutdown completed.
+2022-09-27 15:48:01.524  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:48:01.524  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:48:01.625  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:48:01.630  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:48:01.689  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:48:01.690  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:48:01.690  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:48:01.695  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:48:01.695  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 170 ms
+2022-09-27 15:48:01.724  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:48:01.726  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-45 - Starting...
+2022-09-27 15:48:01.736  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-45 - Start completed.
+2022-09-27 15:48:01.736  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:48:01.755  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:48:01.755  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:48:01.827  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:48:01.857  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:48:01.907  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:48:01.916  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:48:01.920  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.411 seconds (JVM running for 6973.706)
+2022-09-27 15:48:01.921  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:48:16.960  INFO 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 15:48:16.960  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 15:48:16.961  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-27 15:49:59.165  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 15:49:59.167  INFO 7229 --- [Thread-179] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:49:59.167  INFO 7229 --- [Thread-179] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 15:49:59.170  INFO 7229 --- [Thread-179] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:49:59.171  INFO 7229 --- [Thread-179] com.zaxxer.hikari.HikariDataSource       : HikariPool-45 - Shutdown initiated...
+2022-09-27 15:49:59.173  INFO 7229 --- [Thread-179] com.zaxxer.hikari.HikariDataSource       : HikariPool-45 - Shutdown completed.
+2022-09-27 15:49:59.258  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:49:59.258  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:49:59.376  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:49:59.381  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:49:59.462  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:49:59.462  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:49:59.462  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:49:59.468  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:49:59.468  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 207 ms
+2022-09-27 15:49:59.504  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:49:59.507  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-46 - Starting...
+2022-09-27 15:49:59.519  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-46 - Start completed.
+2022-09-27 15:49:59.519  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:49:59.542  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:49:59.543  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:49:59.674  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:49:59.721  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:49:59.778  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:49:59.792  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:49:59.798  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.564 seconds (JVM running for 7091.584)
+2022-09-27 15:49:59.800  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:50:48.886  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 15:50:48.888  INFO 7229 --- [Thread-183] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:50:48.891  INFO 7229 --- [Thread-183] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:50:48.891  INFO 7229 --- [Thread-183] com.zaxxer.hikari.HikariDataSource       : HikariPool-46 - Shutdown initiated...
+2022-09-27 15:50:48.893  INFO 7229 --- [Thread-183] com.zaxxer.hikari.HikariDataSource       : HikariPool-46 - Shutdown completed.
+2022-09-27 15:50:48.968  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:50:48.969  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:50:49.072  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:50:49.076  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:50:49.141  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:50:49.142  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:50:49.142  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:50:49.147  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:50:49.147  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 177 ms
+2022-09-27 15:50:49.174  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:50:49.177  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-47 - Starting...
+2022-09-27 15:50:49.186  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-47 - Start completed.
+2022-09-27 15:50:49.186  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:50:49.204  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:50:49.204  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:50:49.279  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:50:49.324  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:50:49.374  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:50:49.382  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:50:49.387  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.433 seconds (JVM running for 7141.172)
+2022-09-27 15:50:49.388  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:50:52.593  INFO 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 15:50:52.593  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 15:50:52.595  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-09-27 15:56:11.281  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 15:56:11.283  INFO 7229 --- [Thread-187] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:56:11.283  INFO 7229 --- [Thread-187] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 15:56:11.286  INFO 7229 --- [Thread-187] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:56:11.287  INFO 7229 --- [Thread-187] com.zaxxer.hikari.HikariDataSource       : HikariPool-47 - Shutdown initiated...
+2022-09-27 15:56:11.288  INFO 7229 --- [Thread-187] com.zaxxer.hikari.HikariDataSource       : HikariPool-47 - Shutdown completed.
+2022-09-27 15:56:11.366  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:56:11.366  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:56:11.479  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:56:11.483  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:56:11.557  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:56:11.558  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:56:11.558  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:56:11.564  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:56:11.564  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 195 ms
+2022-09-27 15:56:11.600  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:56:11.603  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-48 - Starting...
+2022-09-27 15:56:11.614  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-48 - Start completed.
+2022-09-27 15:56:11.614  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:56:11.641  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:56:11.641  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:56:11.726  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:56:11.764  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:56:11.832  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:56:11.841  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:56:11.846  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.498 seconds (JVM running for 7463.631)
+2022-09-27 15:56:11.847  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:56:13.260  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 15:56:13.269  INFO 7229 --- [Thread-191] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 15:56:13.275  INFO 7229 --- [Thread-191] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:56:13.276  INFO 7229 --- [Thread-191] com.zaxxer.hikari.HikariDataSource       : HikariPool-48 - Shutdown initiated...
+2022-09-27 15:56:13.278  INFO 7229 --- [Thread-191] com.zaxxer.hikari.HikariDataSource       : HikariPool-48 - Shutdown completed.
+2022-09-27 15:56:13.355  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 15:56:13.355  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 15:56:13.463  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 15:56:13.467  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 15:56:13.521  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 15:56:13.522  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 15:56:13.522  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 15:56:13.530  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 15:56:13.530  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 174 ms
+2022-09-27 15:56:13.569  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 15:56:13.573  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-49 - Starting...
+2022-09-27 15:56:13.584  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-49 - Start completed.
+2022-09-27 15:56:13.585  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 15:56:13.606  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 15:56:13.606  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 15:56:13.680  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 15:56:13.712  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 15:56:13.762  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 15:56:13.771  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 15:56:13.776  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.436 seconds (JVM running for 7465.562)
+2022-09-27 15:56:13.778  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 15:57:29.877  INFO 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 15:57:29.877  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 15:57:29.878  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-27 16:01:10.162  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 16:01:10.164  INFO 7229 --- [Thread-195] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 16:01:10.164  INFO 7229 --- [Thread-195] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 16:01:10.167  INFO 7229 --- [Thread-195] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 16:01:10.168  INFO 7229 --- [Thread-195] com.zaxxer.hikari.HikariDataSource       : HikariPool-49 - Shutdown initiated...
+2022-09-27 16:01:10.169  INFO 7229 --- [Thread-195] com.zaxxer.hikari.HikariDataSource       : HikariPool-49 - Shutdown completed.
+2022-09-27 16:01:10.258  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 16:01:10.258  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 16:01:10.366  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 16:01:10.371  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+2022-09-27 16:01:10.449  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 16:01:10.449  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 16:01:10.449  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 16:01:10.455  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 16:01:10.455  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 195 ms
+2022-09-27 16:01:10.489  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 16:01:10.492  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-50 - Starting...
+2022-09-27 16:01:10.502  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-50 - Start completed.
+2022-09-27 16:01:10.502  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 16:01:10.524  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 16:01:10.524  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 16:01:10.607  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 16:01:10.646  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 16:01:10.709  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 16:01:10.719  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 16:01:10.724  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.485 seconds (JVM running for 7762.509)
+2022-09-27 16:01:10.725  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 16:01:12.159  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 16:01:12.164  INFO 7229 --- [Thread-199] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 16:01:12.173  INFO 7229 --- [Thread-199] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 16:01:12.174  INFO 7229 --- [Thread-199] com.zaxxer.hikari.HikariDataSource       : HikariPool-50 - Shutdown initiated...
+2022-09-27 16:01:12.180  INFO 7229 --- [Thread-199] com.zaxxer.hikari.HikariDataSource       : HikariPool-50 - Shutdown completed.
+2022-09-27 16:01:12.265  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 16:01:12.265  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 16:01:12.391  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 16:01:12.395  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 16:01:12.455  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 16:01:12.455  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 16:01:12.456  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 16:01:12.461  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 16:01:12.461  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 194 ms
+2022-09-27 16:01:12.490  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 16:01:12.493  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-51 - Starting...
+2022-09-27 16:01:12.504  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-51 - Start completed.
+2022-09-27 16:01:12.504  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 16:01:12.524  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 16:01:12.524  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 16:01:12.597  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 16:01:12.636  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 16:01:12.683  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 16:01:12.692  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 16:01:12.698  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.449 seconds (JVM running for 7764.483)
+2022-09-27 16:01:12.699  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 16:01:24.389  INFO 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 16:01:24.389  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 16:01:24.391  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-09-27 16:01:24.424 ERROR 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.yummyrestaurant.model.Chef$HibernateProxy$H0iXdmRz["hibernateLazyInitializer"])] with root cause
+
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.yummyrestaurant.model.Chef$HibernateProxy$H0iXdmRz["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1300) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:46) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:29) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1518) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1007) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:456) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-09-27 16:03:12.016  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 16:03:12.018  INFO 7229 --- [Thread-203] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 16:03:12.018  INFO 7229 --- [Thread-203] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 16:03:12.022  INFO 7229 --- [Thread-203] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 16:03:12.023  INFO 7229 --- [Thread-203] com.zaxxer.hikari.HikariDataSource       : HikariPool-51 - Shutdown initiated...
+2022-09-27 16:03:12.025  INFO 7229 --- [Thread-203] com.zaxxer.hikari.HikariDataSource       : HikariPool-51 - Shutdown completed.
+2022-09-27 16:03:12.118  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 16:03:12.119  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 16:03:12.259  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 16:03:12.266  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
+2022-09-27 16:03:12.369  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 16:03:12.369  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 16:03:12.369  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 16:03:12.378  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 16:03:12.378  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 255 ms
+2022-09-27 16:03:12.422  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 16:03:12.426  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-52 - Starting...
+2022-09-27 16:03:12.436  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-52 - Start completed.
+2022-09-27 16:03:12.436  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 16:03:12.462  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 16:03:12.462  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 16:03:12.562  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 16:03:12.605  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 16:03:12.663  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 16:03:12.678  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 16:03:12.686  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.59 seconds (JVM running for 7884.471)
+2022-09-27 16:03:12.687  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 16:03:13.950  INFO 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 16:03:13.950  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 16:03:13.951  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-27 16:06:32.408  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 16:06:32.413  INFO 7229 --- [Thread-207] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 16:06:32.413  INFO 7229 --- [Thread-207] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 16:06:32.422  INFO 7229 --- [Thread-207] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 16:06:32.424  INFO 7229 --- [Thread-207] com.zaxxer.hikari.HikariDataSource       : HikariPool-52 - Shutdown initiated...
+2022-09-27 16:06:32.429  INFO 7229 --- [Thread-207] com.zaxxer.hikari.HikariDataSource       : HikariPool-52 - Shutdown completed.
+2022-09-27 16:06:32.522  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 16:06:32.522  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 16:06:32.633  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 16:06:32.638  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 16:06:32.710  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 16:06:32.711  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 16:06:32.711  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 16:06:32.717  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 16:06:32.717  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 192 ms
+2022-09-27 16:06:32.752  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 16:06:32.755  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-53 - Starting...
+2022-09-27 16:06:32.766  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-53 - Start completed.
+2022-09-27 16:06:32.766  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 16:06:32.792  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 16:06:32.792  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 16:06:32.874  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 16:06:32.912  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 16:06:32.965  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 16:06:32.975  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 16:06:32.980  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.477 seconds (JVM running for 8084.765)
+2022-09-27 16:06:32.981  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 16:06:44.224  INFO 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 16:06:44.225  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 16:06:44.229  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-09-27 16:08:54.534  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 16:08:54.538  INFO 7229 --- [Thread-211] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 16:08:54.539  INFO 7229 --- [Thread-211] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 16:08:54.549  INFO 7229 --- [Thread-211] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 16:08:54.550  INFO 7229 --- [Thread-211] com.zaxxer.hikari.HikariDataSource       : HikariPool-53 - Shutdown initiated...
+2022-09-27 16:08:54.555  INFO 7229 --- [Thread-211] com.zaxxer.hikari.HikariDataSource       : HikariPool-53 - Shutdown completed.
+2022-09-27 16:08:54.641  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 16:08:54.641  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 16:08:54.747  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 16:08:54.751  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 16:08:54.809  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 16:08:54.809  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 16:08:54.809  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 16:08:54.814  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 16:08:54.815  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 172 ms
+2022-09-27 16:08:54.842  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 16:08:54.845  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-54 - Starting...
+2022-09-27 16:08:54.856  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-54 - Start completed.
+2022-09-27 16:08:54.856  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 16:08:54.877  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 16:08:54.877  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 16:08:54.951  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 16:08:54.984  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 16:08:55.034  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 16:08:55.045  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 16:08:55.051  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.424 seconds (JVM running for 8226.836)
+2022-09-27 16:08:55.052  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 16:09:04.406  INFO 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 16:09:04.406  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 16:09:04.411  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-09-27 16:09:04.439 ERROR 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.RestClientException: Error while extracting response for type [class [Lcom.yummyrestaurant.model.Chef;] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `[Lcom.yummyrestaurant.model.Chef;` from Object value (token `JsonToken.START_OBJECT`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `[Lcom.yummyrestaurant.model.Chef;` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 1]] with root cause
+
+com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `[Lcom.yummyrestaurant.model.Chef;` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1741) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1515) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1462) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.handleNonArray(ObjectArrayDeserializer.java:343) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.deserialize(ObjectArrayDeserializer.java:194) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.deserialize(ObjectArrayDeserializer.java:24) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682) ~[jackson-databind-2.13.4.jar:2.13.4]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:343) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:105) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:778) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:334) ~[spring-web-5.3.23.jar:5.3.23]
+	at com.yummyrestaurant.api.ChefRestAPI.jsonArratToObject(ChefRestAPI.java:64) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-09-27 16:10:36.069  INFO 7229 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-27 16:10:36.071  INFO 7229 --- [Thread-215] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-27 16:10:36.071  INFO 7229 --- [Thread-215] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-27 16:10:36.157  INFO 7229 --- [Thread-215] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 16:10:36.157  INFO 7229 --- [Thread-215] com.zaxxer.hikari.HikariDataSource       : HikariPool-54 - Shutdown initiated...
+2022-09-27 16:10:36.159  INFO 7229 --- [Thread-215] com.zaxxer.hikari.HikariDataSource       : HikariPool-54 - Shutdown completed.
+2022-09-27 16:10:36.257  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Starting ECommerceWithSpringMvcApplication using Java 18.0.1 on dell-Inspiron-5570 with PID 7229 (/home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC/target/classes started by dell in /home/dell/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/YummyRestaurantWithSpringMVC)
+2022-09-27 16:10:36.258  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-09-27 16:10:36.361  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-27 16:10:36.365  INFO 7229 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2022-09-27 16:10:36.421  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-27 16:10:36.422  INFO 7229 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-27 16:10:36.422  INFO 7229 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 16:10:36.427  INFO 7229 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-27 16:10:36.427  INFO 7229 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 168 ms
+2022-09-27 16:10:36.455  INFO 7229 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-27 16:10:36.457  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-55 - Starting...
+2022-09-27 16:10:36.467  INFO 7229 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-55 - Start completed.
+2022-09-27 16:10:36.467  INFO 7229 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-27 16:10:36.487  INFO 7229 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-27 16:10:36.487  INFO 7229 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-27 16:10:36.566  WARN 7229 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-27 16:10:36.598  INFO 7229 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-27 16:10:36.650  INFO 7229 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-27 16:10:36.664  INFO 7229 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-27 16:10:36.668  INFO 7229 --- [restartedMain] c.y.ECommerceWithSpringMvcApplication    : Started ECommerceWithSpringMvcApplication in 0.428 seconds (JVM running for 8328.453)
+2022-09-27 16:10:36.669  INFO 7229 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-27 16:10:37.557  INFO 7229 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 16:10:37.557  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-27 16:10:37.558  INFO 7229 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
