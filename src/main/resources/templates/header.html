@@ -59,16 +59,47 @@
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
-          <li><a href="/menu">Menu</a></li>
-          <li><a href="/events">Events</a></li>
-          <li><a href="/chefs">Chefs</a></li>
-          <li><a href="/gallery">Gallery</a></li>
-          <li><a href="/addMenu">Add Menu</a></li>
-          <li><a href="/menuList">Menu List</a></li>
-          <li><a href="/addChef">Add Chef</a></li>
-          <li><a href="/chefList">Chef List</a></li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="/menu">Menu</a></li>
+            <li><a class="dropdown-item" href="/addMenu">Add Menu</a></li>
+            <li><a class="dropdown-item" href="/menuList">Menu List</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Events
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="/events">Events</a></li>
+            <li><a class="dropdown-item" href="/bookTable">Book Table</a></li>
+            <li><a class="dropdown-item" href="/bookedTableList">Booked Table List</a></li>
+          </ul>
+        </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Chefs
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="/chefs">Chefs</a></li>
+            <li><a class="dropdown-item" href="/addChef">Add Chef</a></li>
+            <li><a class="dropdown-item" href="/chefList">Chef List</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Gallery
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="/gallery">Gallery</a></li>
+            <li><a class="dropdown-item" href="/upload">Upload Image</a></li>
+          </ul>
+        </li>
           <li><a href="/contact">Contact</a></li>
-          <li><a href="/upload">Upload Image</a></li>
+          <li><a href="/bookedTableList">Booked Table List</a></li>
 <!--           <li><a href="/login">Login</a></li>
           <li><a href="/signup">Sign Up</a></li> -->
         </ul>

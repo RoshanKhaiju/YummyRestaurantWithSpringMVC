@@ -47,11 +47,11 @@ public class LoginController {
 				log.info("login success");
 
 				session.setAttribute("activeUser", user);
-//			session.setMaxInactiveInterval(300);
+				session.setMaxInactiveInterval(300);
 
 //			attribute.addFlashAttribute("username", u.getUsername());
 				return "redirect:/";
-			}else {
+			} else {
 				log.info("login failed");
 				model.addAttribute("message", "user not found!");
 				return "login";

@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.yummyrestaurant.model.Chef;
 import com.yummyrestaurant.model.Menu;
 import com.yummyrestaurant.service.MenuService;
 
