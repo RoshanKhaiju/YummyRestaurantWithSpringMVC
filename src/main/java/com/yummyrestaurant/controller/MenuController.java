@@ -21,10 +21,11 @@ public class MenuController {
 	private MenuService service;
 
 	@GetMapping("/menu")
-	public String menuPage(HttpSession session) {
+	public String menuPage(Model model, HttpSession session) {
 		if (session.getAttribute("activeUser") == null) {
 			return "redirect:/";
 		}
+		model.addAttribute("menuItems", service.getAllMenu());
 		return "menu";
 	}
 

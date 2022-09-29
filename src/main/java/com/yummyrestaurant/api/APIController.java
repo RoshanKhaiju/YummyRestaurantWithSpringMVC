@@ -6,9 +6,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class APIController {
 	
-	@GetMapping("/restapi")
-	public String getApi() {
-		return "restAPIForm";
+	@GetMapping("/chefrestapi")
+	public String getChefApi() {
+		return "chefRestAPIForm";
+	}
+	
+	@GetMapping("/menurestapi")
+	public String getMenuApi() {
+		return "menuRestAPIForm";
 	}
 
 }
